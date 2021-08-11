@@ -7,7 +7,10 @@ import { MedicosComponent } from 'src/app/modules/medicos/medicos.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { MatSidenavModule } from '@angular/material/sidenav'
 import { MatDividerModule } from '@angular/material/divider';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatCardModule } from '@angular/material/card';
 
+import {  } from '@angular/material/';
 
 
 @NgModule({
@@ -21,7 +24,10 @@ import { MatDividerModule } from '@angular/material/divider';
     RouterModule,
     SharedModule,
     MatSidenavModule,
-    MatDividerModule
+    MatDividerModule,
+    FlexLayoutModule,
+    MatCardModule,
+    
   ]
 })
 export class DefaultModule { }
